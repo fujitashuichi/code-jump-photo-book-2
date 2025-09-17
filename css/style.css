@@ -99,3 +99,45 @@ section {
 .photo-list img {
     width: 100%;
 }
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#detail dl {
+    width: 35%;
+    border-right: solid 1px #000;
+    text-align: left;
+    padding-right: 40px;
+}
+
+#detail dl dt {
+    font-weight: bold;
+    font-size: 0.85rem;
+}
+
+#detail dl dd {
+    margin-bottom: 15px;
+    font-size: 0.9rem;
+    font-family: serif;
+}
+
+#detail .text {
+    width: 65%;
+    padding-left: 40px;
+}
+
+#detail .text p {
+    margin-bottom: 20px;
+}
+
+#detail .text a {
+    color: #000;
+}
+
+footer {
+    text-align: center;
+    font-size: 0.6rem;
+    padding: 15px 0;
+}
